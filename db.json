@@ -1,0 +1,42 @@
+{
+    "logs": [
+        {
+            "id": 1,
+            "message": "Changed hard drive on Station 10",
+            "attention": false,
+            "date": "03-02-2019",
+            "tech": "Sam Smith"
+        },
+        {
+            "id": 2,
+            "message": "Changed Memory drive on Station 10",
+            "attention": true,
+            "date": "03-02-2019",
+            "tech": "Joe Smith"
+        },
+        {
+            "id": 3,
+            "message": "Changed Clamshell on Station 10",
+            "attention": false,
+            "date": "03-02-2019",
+            "tech": "Jimmy Carter"
+        }
+    ],
+    "techs": [
+        {
+            "id":1,
+            "firstName": "Sam",
+            "lastName": "Smith"
+        },
+        {
+            "id":2,
+            "firstName": "Joe",
+            "lastName": "Smith"
+        },
+        {
+            "id":3,
+            "firstName": "Jimmy",
+            "lastName": "Carter"
+        }
+    ]
+}
