@@ -8,7 +8,9 @@ const App = () => {
     // Init Materialize JS
     M.AutoInit();
   });
+
   return <div className='App'>My App</div>;
+  
 };
 
 export default App;
