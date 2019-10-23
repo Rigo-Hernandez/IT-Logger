@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 const Logs = () => {
-    const [logs, setLogs] = useState();
+  const [logs, setLogs] = useState();
 
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return <div>
+      
+  </div>;
+};
 
-export default Logs
+export default Logs;
