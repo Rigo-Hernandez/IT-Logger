@@ -10,6 +10,7 @@ const App = () => {
     // Init Materialize JS
     M.AutoInit();
   });
+  
 
   return (
     <Fragment>
