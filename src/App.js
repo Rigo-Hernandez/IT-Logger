@@ -11,7 +11,6 @@ const App = () => {
     M.AutoInit();
   });
   
-
   return (
     <Fragment>
       <SearchBar />
