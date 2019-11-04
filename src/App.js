@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => {
   useEffect(() => {
-    // Init Materialize JS
+    // Initialize Materialize JS
     M.AutoInit();
   });
   
