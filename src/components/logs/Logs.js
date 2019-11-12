@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LogItem from './LogItem';
-import Preloader from '../layout/Preloader'
+import Preloader from '../layout/Preloader';
 
 const Logs = () => {
   const [logs, setLogs] = useState([]);
