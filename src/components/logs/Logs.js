@@ -35,6 +35,7 @@ const Logs = () => {
         logs.map(log => <LogItem log={log} key={log.id} />)
       )}
     </ul>
+    
   );
 };
 
