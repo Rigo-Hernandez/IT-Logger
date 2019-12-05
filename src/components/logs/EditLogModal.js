@@ -12,9 +12,9 @@ const EditLogModal = () => {
       console.log(message, tech, attention);
 
       //Clear FIelds
-      setMessage('')
-      setTech('')
-      setAttention(false)
+      setMessage('');
+      setTech('');
+      setAttention(false);
     }
   };
 
