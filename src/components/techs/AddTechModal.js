@@ -5,15 +5,14 @@ const AddTechModal = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
-
   const onSubmit = () => {
     if (firstName === '' || lastName === '') {
       M.toast({ html: 'Please enter the first and last name' });
     } else {
       console.log(firstName, lastName);
       // CLear fields
-      setFirstName('')
-      setLastName('')
+      setFirstName('');
+      setLastName('');
     }
   };
 
