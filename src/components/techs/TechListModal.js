@@ -4,7 +4,7 @@ import TechItem from './TechItem';
 const TechListModal = () => {
   const [techs, setTechs] = useState([]);
   const [loading, setLoading] = useState(false);
-  
+
 
   useEffect(() => {
     getTechs();
@@ -19,6 +19,7 @@ const TechListModal = () => {
     setTechs(data);
     setLoading(false);
   };
+  
 
   return (
     <div id='tech-list-modal' className='modal'>
