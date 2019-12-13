@@ -16,7 +16,7 @@ const App = () => {
     // Initialize Materialize JS
     M.AutoInit();
   });
-  
+
 
   return (
     <Fragment>
@@ -32,4 +32,5 @@ const App = () => {
     </Fragment>
   );
 };
+
 export default App;
