@@ -16,6 +16,7 @@ const App = () => {
     // Initialize Materialize JS
     M.AutoInit();
   });
+  
 
   return (
     <Fragment>
