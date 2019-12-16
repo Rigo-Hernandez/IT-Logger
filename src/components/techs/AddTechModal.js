@@ -15,6 +15,7 @@ const AddTechModal = () => {
       setLastName('');
     }
   };
+  
 
   return (
     <div id='add-tech-modal' className='modal'>
