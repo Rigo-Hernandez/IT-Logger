@@ -33,3 +33,4 @@ const TechListModal = () => {
 };
 
 export default TechListModal;
+
