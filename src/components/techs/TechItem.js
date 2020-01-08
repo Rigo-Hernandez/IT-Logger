@@ -14,6 +14,7 @@ const TechItem = ({ tech }) => {
   );
 };
 
+
 TechItem.propTypes = {
   tech: PropTypes.object.isRequired
 };
