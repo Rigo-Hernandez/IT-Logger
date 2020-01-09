@@ -5,7 +5,6 @@ const TechListModal = () => {
   const [techs, setTechs] = useState([]);
   const [loading, setLoading] = useState(false);
 
-
   useEffect(() => {
     getTechs();
     // eslint-disable-next-line
@@ -19,7 +18,6 @@ const TechListModal = () => {
     setTechs(data);
     setLoading(false);
   };
-  
 
   return (
     <div id='tech-list-modal' className='modal'>
@@ -35,4 +33,3 @@ const TechListModal = () => {
 };
 
 export default TechListModal;
-
