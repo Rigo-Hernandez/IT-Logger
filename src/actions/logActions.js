@@ -21,7 +21,7 @@ export const getLogs = () => async dispatch => {
 };
 
 //Add new log
-export const addLog = (log) => async dispatch => {
+export const addLog = log => async dispatch => {
   try {
     setLoading();
 
