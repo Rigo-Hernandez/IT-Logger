@@ -1,4 +1,10 @@
-import { GET_LOGS, SET_LOADING, LOGS_ERROR, ADD_LOG, DELETE_LOG } from './types';
+import {
+  GET_LOGS,
+  SET_LOADING,
+  LOGS_ERROR,
+  ADD_LOG,
+  DELETE_LOG
+} from './types';
 
 //get logs from server
 export const getLogs = () => async dispatch => {
@@ -21,7 +27,7 @@ export const getLogs = () => async dispatch => {
 };
 
 //Delete Logs from server
-export const deleteLog = (id) => async dispatch => {
+export const deleteLog = id => async dispatch => {
   try {
     setLoading();
 
