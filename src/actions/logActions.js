@@ -59,11 +59,11 @@ export const updateLog = log => async dispatch => {
       method: 'PUT',
       body: JSON.stringify(log),
       header: {
-        'Content-Type' : 'application/json'
+        'Content-Type': 'application/json'
       }
     });
 
-    const data = await res.json()
+    const data = await res.json();
 
     dispatch({
       type: UPDATE_LOG,
@@ -77,20 +77,19 @@ export const updateLog = log => async dispatch => {
   }
 };
 
-
 // Set curreent log
 export const setCurrent = log => {
   return {
     type: SET_CURRENT,
     payload: log
-  }
-}
-// Clear current log 
+  };
+};
+// Clear current log
 export const clearCurrent = () => {
   return {
     type: CLEAR_CURRENT
-  }
-}
+  };
+};
 
 //Add new log
 export const addLog = log => async dispatch => {
