@@ -1,18 +1,10 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on Station 10",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Changed Memory drive on Station 10",
-      "attention": true,
-      "date": "03-02-2019",
-      "tech": "Joe Smith"
+      "id": 2
     }
   ],
   "techs": [
