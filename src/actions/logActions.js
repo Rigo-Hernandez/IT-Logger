@@ -78,7 +78,7 @@ export const updateLog = log => async dispatch => {
   }
 };
 
-export const searchLogs = (text) => async dispatch => {
+export const searchLogs = text => async dispatch => {
   try {
     setLoading();
 
@@ -96,8 +96,6 @@ export const searchLogs = (text) => async dispatch => {
     });
   }
 };
-
-
 
 // Set curreent log
 export const setCurrent = log => {
