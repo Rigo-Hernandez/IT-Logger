@@ -105,7 +105,4 @@ const modalStyle = {
   height: '75%'
 };
 
-export default connect(
-  null,
-  { addLog }
-)(AddLogModal);
+export default connect(null, { addLog })(AddLogModal);
