@@ -33,7 +33,4 @@ const mapStateToProps = state => ({
   tech: state.tech
 });
 
-export default connect(
-  mapStateToProps,
-  { getTechs }
-)(TechListModal);
+export default connect(mapStateToProps, { getTechs })(TechListModal);
