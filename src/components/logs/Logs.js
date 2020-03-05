@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import LogItem from './LogItem';
-import PropTypes from 'prop-types';
 import Preloader from '../layout/Preloader';
+import PropTypes from 'prop-types';
 import { getLogs } from '../../actions/logActions';
 
 const Logs = ({ log: { logs, loading }, getLogs }) => {
@@ -38,4 +38,7 @@ const mapStateToProps = state => ({
   log: state.log
 });
 
-export default connect(mapStateToProps, { getLogs })(Logs);
+export default connect(
+  mapStateToProps,
+  { getLogs }
+)(Logs);

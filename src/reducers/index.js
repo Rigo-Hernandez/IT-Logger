@@ -6,4 +6,3 @@ export default combineReducers({
   log: logReducer,
   tech: techReducer
 });
-

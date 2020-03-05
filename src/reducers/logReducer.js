@@ -4,10 +4,10 @@ import {
   LOGS_ERROR,
   ADD_LOG,
   DELETE_LOG,
+  UPDATE_LOG,
   SEARCH_LOGS,
   SET_CURRENT,
-  CLEAR_CURRENT,
-  UPDATE_LOG
+  CLEAR_CURRENT
 } from '../actions/types';
 
 const initialState = {
